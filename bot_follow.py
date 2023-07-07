@@ -26,9 +26,9 @@ parser.add_argument("-st", "--sleep-time", help="Total time (in hours) for the b
 args = parser.parse_args()
 
 sleepSecondsActionMin = int(args.sleep_min or 20)
-sleepSecondsActionMax = int(args.sleep_max or 120)
-sleepSecondsLimitedMin = int(args.sleep_min_limited or 600)
-sleepSecondsLimitedMax = int(args.sleep_max_limited or 1500)
+sleepSecondsActionMax = int(args.sleep_max or 60)
+sleepSecondsLimitedMin = int(args.sleep_min_limited or 60)
+sleepSecondsLimitedMax = int(args.sleep_max_limited or 150)
 
 load_dotenv()
 USER = os.getenv("GITHUB_USER")
