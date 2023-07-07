@@ -2,7 +2,7 @@
 
 # Install dependencies
 sudo apt-get update
-sudo apt-get install -y git automake build-essential pkg-config libevent-dev libncurses-dev
+sudo apt-get install -y git automake build-essential pkg-config libevent-dev libncurses-dev tmux
 
 # Clone the tmux repository
 git clone https://github.com/tmux/tmux.git
